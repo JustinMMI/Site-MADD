@@ -1,4 +1,9 @@
 this is a comment in a CSS file
+nav {
+    background-color: #333333;
+    overflow: hidden;
+}
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
