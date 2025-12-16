@@ -1,9 +1,3 @@
 Contenus a télécharger
 
-polices: Spectral SC medium et regular, Urbanist regular, medium, bold
-
-Images:
-  header: 
-  footer:
-  acceuil:
   histoire: photo hotel, photo prison, photo actuel
