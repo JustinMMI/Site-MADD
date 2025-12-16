@@ -3,7 +3,7 @@ Contenus a télécharger
 polices: Spectral SC medium et regular, Urbanist regular, medium, bold
 
 Images:
-  header: logo MAAD noir
-  footer: logo MAAD blanc, logo mecene blanc, bdx culture blanc, icon yt, icon insta, icon fb
-  acceuil: photo hero, photo maad mobile, photo maad chez vous, photo agenda, photo collections, icon evenements, icon adresse, icon horaires
+  header: 
+  footer:
+  acceuil:
   histoire: photo hotel, photo prison, photo actuel
