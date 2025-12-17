@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Urbanist';
-    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    src: url('../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -11,16 +11,18 @@
 
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #000000;
     width: 100%;
     bottom: 0;
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin: 0;
 }
 footer a {
-    color: #ffffff; ;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
 }
 footer a:hover {
     color: #ffff66;
@@ -48,7 +50,13 @@ footer img {
     margin: 10px; /* Marge */
 }
 
-.imagesfooter{
-    width: 100px;
+.imagesfooterbdx{
+    width: 70px;
     height: auto;
 }
+
+.imagesfooter{
+    width: 200px;
+    height: auto;
+}
+

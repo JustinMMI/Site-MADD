@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Urbanist';
-    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    src: url('../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }

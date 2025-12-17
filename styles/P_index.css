@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Urbanist';
-    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    src: url('../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -10,10 +10,8 @@
 /*END GLOBAL STYLES*/
 
 body {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left : 5% ;
-    margin-right : 5% ;
 }
 
 a {
@@ -31,6 +29,11 @@ a:hover {
     padding: 20px;
 }
 
+main {
+    background-color: #ffffff;
+    margin-left : 10% ;
+    margin-right : 10% ;
+}
 
 /* End of CSS file */
 /* Main styles for the webpage */
@@ -63,7 +66,7 @@ a:hover {
 
 #imgMADDbatiment {
     float: right;
-    height: auto;
+    height: 450px;
 }
 
 #imgleft {

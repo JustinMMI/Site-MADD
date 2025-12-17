@@ -1,14 +1,3 @@
-/*GLOABL STYLES*/
-
-@font-face {
-    font-family: 'Urbanist';
-    src: url('sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-/*END GLOBAL STYLES*/
-
 .button {
     background-color: #008cba;
     color: white;
@@ -27,22 +16,28 @@
     background-color: #D72638;
     color: white;
     text-align: center;
-    padding: 8px 0;
-    font-size: 14px;
+    padding: 10px 0;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
     font-family: Urbanist, sans-serif;
+    border-bottom: black 4px solid;
+}
+
+.bandeau {
+    display: block;
+    background-color: #D72638;
+    color: white;
 }
 
 .bandeau p {
-    color:white;
+    color: inherit;
+    margin: 0;
 }
 
 .bandeau:hover {
-    background-color: #ffffff;
-}
-
-.bandeau p:hover {
     color: black;
+    background-color: white;
+    cursor: pointer;
     text-decoration: none;
 }
