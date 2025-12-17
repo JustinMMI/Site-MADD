@@ -1,10 +1,47 @@
-/*GLOABL STYLES*/
-
-@font-face {
-    font-family: 'Urbanist';
-    src: url('../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*END GLOBAL STYLES*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left : 10% ;
+    margin-right : 10% ;
+}
+
+/* End of CSS file */
+/* Main styles for the webpage */
+/* Additional styles can be added below */
+
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

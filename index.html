@@ -21,7 +21,6 @@
         </a>
     </section>
     <header>
-        <section class="contenu_h">
         <img src="sources/images/logoMAAD_b.png" alt="Logo MADD" href="index.html" id="logoMADD">
         <nav> <!--menu de navigation-->
             <ul>
@@ -72,65 +71,78 @@
                 </li>
             </ul>
         </nav>
-        <button>Contact</buttons>
-        </section>
+        <button class="button button-yellow">CONTACT</button>
     </header>
     <main>
         <section> 
             <!--hero: logo, texte, image, bouttons-->
-            <button>Fermé, Ouvrira bientôt</button>
-            <h1 id="h1-left"> Musée des Arts Décoratifs et du Design</h1>
+            <button class="button-white">Fermé, Ouvrira bientôt</button>
+            <img src="sources/images/logoMAAD_b.png" alt="Logo MADD" href="index.html" id="logoMADD">
             <p>Au coeur de l'hôtel de Lalande, découvrez 2 siècles de création artistique à travers le design, l'artisanat d'art et les Arts Décoratifs.</p>
-            <button>Programmation</button>
-            <button>Les Collections</button>
+            <button class="button-black">Programmation</button>
+            <button class="button-white">Les Collections</button>
             <img src="sources/images/image hero.png" id="imgMADDbatiment" alt="image hero">
         </section>
-        <section><!--contenus-->
-            <h2>---- En ce moment</h2>
+        <section class="bloc-gauche"><!--contenus-->
+            <div>
+                <h2>---- En ce moment</h2>
+            </div>
             <section> <!--Madd mobile -->
-                <h6>---- HORS LES MURS</h6>
-                <h3>Le MADD Mobile</h3>
-                <p>Le musée va à votre rencontre ! Découvrez nos interventions dans les écoles, nos conférences et nos ateliers !</p>
-                <p>Découvrir nos actions</p>
-                <img src="sources/images/MADDmobile.png" id="imgleft" alt="image madd mobile">
+                <div class="img-gauche">
+                    <img src="sources/images/MADDmobile.png" id="imgleft" alt="image madd mobile">
+                </div>
+                <div class="p-droite">
+                    <h6>---- HORS LES MURS</h6>
+                    <h3>Le MADD Mobile</h3>
+                    <p>Le musée va à votre rencontre ! Découvrez nos interventions dans les écoles, nos conférences et nos ateliers !</p>
+                    <p>Découvrir nos actions</p>
+                </div>
             </section>
-            <section> <!--Madd chez vous -->
-                <h6>---- CONTENUS DIGITAUX</h6>
-                
-                <h3>Le MADD chez vous</h3>
-                <p>Explorez nos contenus vidéo et audio pour découvrir les collections, les coulisses du musée et l'univers des arts décoratifs depuis chez vous ! Podcasts, vidéos et ressources en ligne.</p>
-                <p>Voir les contenus</p>
-                <img src="sources/images/MADD&vous.png" id ="imgright" alt="image madd chez vous">
+            <section class="bloc-droite"> <!--Madd chez vous -->
+                <div class="p-gauche"> 
+                    <h6>---- CONTENUS DIGITAUX</h6>
+                    <h3>Le MADD chez vous</h3>
+                    <p>Explorez nos contenus vidéo et audio pour découvrir les collections, les coulisses du musée et l'univers des arts décoratifs depuis chez vous ! Podcasts, vidéos et ressources en ligne.</p>
+                    <p>Voir les contenus</p>
+                </div>
+                <div class="img-droite">
+                    <img src="sources/images/MADD&vous.png"  alt="image madd chez vous">
+                </div>
             </section>
-            <section> <!--Agenda -->
-                <h6>---- EVENEMENTS CULTURELS</h6>
-                <h3>Agenda</h3>
-                <p>Conférences, ateliers, rencontres avec des créateurs... Découvrez notre programmation culturelle riche et variée tout au long de l'année.</p>
-                <p>Consulter l'agenda</p>
-                <img src="sources/images/evenements.png" id="imgleft" alt="image agenda"> 
+            <section class="bloc-gauche"> <!--Agenda -->
+                <div class="img-gauche">
+                    <img src="sources/images/evenements.png" alt="image agenda"> 
+                </div> 
+                <div class="p-droite"> 
+                    <h6>---- EVENEMENTS CULTURELS</h6>
+                    <h3>Agenda</h3>
+                    <p>Conférences, ateliers, rencontres avec des créateurs... Découvrez notre programmation culturelle riche et variée tout au long de l'année.</p>
+                    <p>Consulter l'agenda</p>
+                </div>
             </section>
-            <section> <!--La collection -->
-                <h6>---- PATRIMOINE PERMANENT</h6>
-                <h3>La collection</h3>
-                <p>Plus de 3500 œuvres d'arts décoratifs et de design, du XVIe siècle à nos jours. Mobilier, céramique, textile, verre... un patrimoine exceptionnel à découvrir.</p>
-                <p>Explorer les collections</p>
-                <img src="sources/images/collections.png" id ="imgright" alt="image collection">
+            <section class="bloc-droite"> <!--La collection -->
+                <div class="p-gauche"> 
+                    <h6>---- PATRIMOINE PERMANENT</h6>
+                    <h3>La collection</h3>
+                    <p>Plus de 3500 œuvres d'arts décoratifs et de design, du XVIe siècle à nos jours. Mobilier, céramique, textile, verre... un patrimoine exceptionnel à découvrir.</p>
+                    <p>Explorer les collections</p>
+                </div> 
+                <div class="img-droite">
+                    <img src="sources/images/collections.png" id ="imgright" alt="image collection">
+                </div>
             </section>
             <section> <!--cartes-->
                 <div>
-                    <!--evenements-->
                     <h4>Événements</h4>
                     <p>Conférences, Rencontres & Visites</p>
                     <img src="sources/images/evenement.png" id="imgleft" alt="image événements">
                 </div>
                 <div>
-                    <!--adresse-->
                     <h4>Adresse</h4>
                     <p>39 rue Bouffard, 33000 Bordeaux</p>
-                    <img src="sources/images/adresse.png" id ="imgright" alt="image adresse">
+                    <img src="sources/images/adresse.png" id="imgright" alt="image adresse">
                 </div>
                 <div>
-                    <!--horaires-->
                     <h4>Horaires</h4>
                     <p>Mer-Dim  14h-18h</p>
                     <p>Lun-Mar  Fermé</p>
@@ -139,44 +151,63 @@
             </section>
         </section>
         <section> <!--bas de page-->
-        <p>Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
-        <button>newsletter</button>
+            <p>Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
+            <button class="button-yellow">S'INSCIRE A LA NEWSLETTER</button>
+        </section>
     </main>
     <footer>
-        <section > <!--logos-->
-            <img src="sources/images/logoMAAD_w.png" alt="logo MADD"class="imagesfooter">
-            <img src="sources/images/image 25.png" alt="logo bordeaux culture" class="imagesfooterbdx">
-            <img src="sources/images/image 26.png" alt="logo Châteaux Haut-Bailly, mécène d'honneur" class="imagesfooter">
-        </section>
-        <section>
-            <h5>Contact</h5>
-            <p>39 rue Bouffard, 33000 Bordeaux</p>
-            <p>+33 (0)5 56 10 14 50</p>
-            <a href="mailto:contact@madd-bordeaux.fr">contact@madd-bordeaux.fr</a>
-        </section>
-        <section>
-            <h5>Horaires</h5>
-            <p>Mer-Dim  14h-18h</p>
-            <p>Lun-Mar  Fermé</p>
-            <p>Entrée Gratuite</p>
-        </section>
-        <section>
-            <!-- réseaux sociaux-->
-            <h5>Suivez-nous</h5>
-            <img src="/sources/images/yt.png" class="logo" alt="logo Youtube">
-            <a href= "https://www.youtube.com/@museedesartsdecoratifsetdesign">Youtube</a>
-            <img src="sources/images/logo ig.png" class="logo" alt="logo instagram">
-            <a href= "https://www.instagram.com/madd_bordeaux/">Instagram</a>
-            <img src="/sources/images/fb.png" class="logofb" alt="logo fb">
-            <a href= "https://www.facebook.com/Musee.Arts.decoratifs.Bordeaux/">Facebook</a>
-        </section>
-        <section>
-          <!-- section légal confidentialité, copyright, etc-->
-          <p>© 2025 MADD Bordeaux. Tous droits réservés</p>
-          <a> LEGAL</a>
-          <a> CONFIDENTIALITE</a>
-          <a> ACCESSIBILITE</a>
-        </section>
+        <div class="footer-main">
+            <section class="col-logos">
+                <img src="sources/images/logoMAAD_w.png" alt="logo MADD" class="logo-principal">
+                <div class="logos-partenaires">
+                    <img src="sources/images/image 25.png" alt="Bordeaux Culture">
+                    <img src="sources/images/image 26.png" alt="Haut-Bailly">
+                </div>
+            </section>
+            <section class="col-contact">
+                <h5><span class="red">|</span> CONTACT</h5>
+                <p>39 rue Bouffard</p>
+                <p>33000 Bordeaux, France</p>
+                <br>
+                <p>+33 5 56 10 25 00</p>
+                <br>
+                <a href="mailto:madd@mairie-bordeaux.fr">madd@mairie-bordeaux.fr</a>
+            </section>
+            <section class="col-horaires">
+                <h5><span class="blue">|</span> HORAIRES</h5>
+                <div class="horaire-row">
+                    <strong>Mer - Dim</strong> <span>14h - 18h</span>
+                </div>
+                <div class="horaire-row">
+                    <strong>Lun - Mar</strong> <span>Fermé</span>
+                </div>
+                <br>
+                <p><strong>Entrée Gratuite</strong></p>
+            </section>
+            <section class="col-social">
+                <h5><span class="yellow">|</span> RÉSEAUX</h5>
+                <div class="social-row">
+                    <img src="/sources/images/yt.png" alt="Youtube">
+                    <a href="#">@museedesartsdecoratifsetdesign</a>
+                </div>
+                <div class="social-row">
+                    <img src="sources/images/logo ig.png" alt="Instagram">
+                    <a href="#">@madd_bordeaux</a>
+                </div>
+                <div class="social-row">
+                    <img src="/sources/images/fb.png" alt="Facebook">
+                    <a href="#">Musée des Arts décoratifs...</a>
+                </div>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 MADD Bordeaux. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">LÉGAL</a>
+                <a href="#">CONFIDENTIALITÉ</a>
+                <a href="#">ACCESSIBILITÉ</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

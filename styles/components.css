@@ -1,15 +1,41 @@
-.button {
-    background-color: #008cba;
-    color: white;
-    padding: 10px 20px;
+.button-yellow{
+    background-color:rgba(244, 208, 63, 1);
+    color: black;
+    font-family: Urbanist;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px;
 }
-.button:hover {
-    background-color: #005f5f;
+.button-yellow:hover {
+    background-color:rgba(185,156,39);
 }
 
+
+.button-black{
+    background-color:black;
+    color: white;
+    font-family: Urbanist;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button-black:hover {
+    background-color: rgba(70,70,70);
+}
+
+.button-white{
+    background-color:white;
+    color: black;
+    font-family: Urbanist;
+    font-variant: small-caps;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+.button-white:hover {
+    background-color: rgba(220,220,220);
+}
 .bandeau {
     display: block;
     text-decoration: none;
@@ -22,12 +48,6 @@
     font-weight: 600;
     font-family: Urbanist, sans-serif;
     border-bottom: black 4px solid;
-}
-
-.bandeau {
-    display: block;
-    background-color: #D72638;
-    color: white;
 }
 
 .bandeau p {
