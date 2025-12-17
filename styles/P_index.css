@@ -1,26 +1,30 @@
+/*GLOABL STYLES*/
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*END GLOBAL STYLES*/
 
 body {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    
-}
-
-
-
-    @font-face {
-    font-family: Urbanist;
-    src: 
-    local("Urbanist")
-    url(sources/fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left : 5% ;
+    margin-right : 5% ;
 }
 
 a {
-    color: #0066cc;
+    color: #ffffff;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -40,13 +44,22 @@ a:hover {
         width: 100%;
         padding: 10px;
     }
+
     h1 {
         font-size: 24px;
     }
+
     p {
         font-size: 14px;
     }
-}   /* End of responsive styles */
+}
+
+/* End of responsive styles */
+#logoMADD {
+    float: left;
+    max-width: 200px; /* Largeur */
+    height: auto; /* Hauteur*/
+}
 
 #imgMADDbatiment {
     float: right;

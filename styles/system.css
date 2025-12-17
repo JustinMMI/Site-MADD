@@ -1,4 +1,15 @@
-                            /* Navigation styles */
+/*GLOABL STYLES*/
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*END GLOBAL STYLES*/
+
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -31,7 +42,7 @@ nav ul li ul {
     position: absolute;
     background-color: #ffffff;
     min-width: 160px;
-    z-index: 1;
+    z-index: 1000;
     top: 100%;
     left: 0;
 }

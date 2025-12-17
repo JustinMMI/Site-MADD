@@ -1,24 +1,55 @@
+/*GLOABL STYLES*/
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*END GLOBAL STYLES*/
+
+font-face {
+    font-family: "Spectral";
+    src:
+      local("Spectral"),
+      url("/sources/polices/Spectral_SC/SpectralSC-Regular.ttf") format("truetype"),
+}
+
 h1 {
     color: #333333;
-    text-align: center;
     font-size: 2.5em;
+    font-family: Spectral;
 }
 
 h2 {
     font-size: 2em;
-    font-weight: bold;
     margin-bottom: 0.5em;
 }
 
 h3 {
     font-size: 1.75em;
-    font-weight: bold;
     margin-bottom: 0.5em;
 }
 
-p {
+p{
+    color: black;
+    font-size: 16px;
+}
+
+footer p {
     font-size: 16px;
     line-height: 1.5;
-    color: #666666;
+    color: white;
     font-family: Urbanist;
+}
+
+.h1-left {
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+    color: white
 }

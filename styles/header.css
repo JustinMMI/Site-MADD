@@ -1,21 +1,35 @@
+/*GLOABL STYLES*/
 
-                                /* Header styles */
+@font-face {
+    font-family: 'Urbanist';
+    src: url('fonts/Urbanist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*END GLOBAL STYLES*/
+
+/* Header styles */
 header {
     display: block;
     background-color: #fff;
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-header img {
-    height: 60px; /* Adjust logo size */
+    box-shadow: 0 2px 4px #0000001a;
+    position: relative;
+    overflow: hidden;
 }
 
 header nav {
-    float: left;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: right;
 }
 
 header button {
-    margin-left: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
