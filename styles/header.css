@@ -1,0 +1,21 @@
+
+                                /* Header styles */
+header {
+    display: block;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header img {
+    height: 60px; /* Adjust logo size */
+}
+
+header nav {
+    float: left;
+    text-align: right;
+}
+
+header button {
+    margin-left: 20px;
+}

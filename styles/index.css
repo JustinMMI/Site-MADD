@@ -4,10 +4,8 @@ body {
     font-family: Arial, sans-serif;
     
 }
-h1 {
-    color: #333333;
-    text-align: center;
-}
+
+
 
     @font-face {
     font-family: Urbanist;
@@ -16,13 +14,6 @@ h1 {
     url(sources/fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
 }
 
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666666;
-    font-family: Urbanist;
-}
 a {
     color: #0066cc;
     text-decoration: none;
@@ -35,32 +26,8 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
 }
-.button {
-    background-color: #008cba;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #005f5f;
-}
-.footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #222222;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-.footer a {
-    color: #ffcc00;
-}
-.footer a:hover {
-    color: #ffff66;
-}
+
+
 /* End of CSS file */
 /* Main styles for the webpage */
 /* Additional styles can be added below */
@@ -81,10 +48,17 @@ a:hover {
     }
 }   /* End of responsive styles */
 
-/* Footer styles */
-.footer {
-    font-size: 14px;
+#imgMADDbatiment {
+    float: right;
+    height: auto;
 }
 
+#imgleft {
+    float: left;
+    height: auto;
+}
 
-
+#imgright {
+    float: right;
+    height: auto;
+}
