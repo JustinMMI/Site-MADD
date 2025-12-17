@@ -1,0 +1,14 @@
+html{
+    background-color: fuchsia;
+    color: blue;
+}
+
+div {
+    max-width: 800px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+video {
+    width: 600px;
+}
