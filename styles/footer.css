@@ -27,20 +27,15 @@ footer p {
   gap: 30px;
 }
 
-.footer-main section {
+.footer-main section,
+.col-logos {
   flex: 1;
   min-width: 150px;
   padding-right: 0;
 }
 
 .col-logos {
-  flex: 0 0 auto;
-  margin-right: 30px;
-}
-
-.col-contact {
   flex: 1;
-  min-width: 150px;
 }
 
 .footer-bottom {
