@@ -58,21 +58,6 @@ main {
   display: inline-block;
 }
 
-/*.hero-title {
-    line-height: 0.95;
-    font-weight: 700;
-    color: #111111;
-}
-
-.hero-brand {
-    letter-spacing: 2px;
-}
-
-.hero-city {
-    font-size: 58px;
-    font-weight: 400;
-}*/
-
 .hero-actions {
   display: flex;
   gap: 16px;
@@ -133,11 +118,6 @@ main {
   margin-top: 20px;
 }
 
-/* End of CSS file */
-/* Main styles for the webpage */
-/* Additional styles can be added below */
-
-/* Responsive design for smaller screens */
 @media (max-width: 600px) {
   .container {
     width: 100%;
@@ -153,12 +133,11 @@ main {
   }
 }
 
-/* End of responsive styles */
 #logoMADD {
   display: block;
   float: left;
-  max-width: 200px; /* Largeur */
-  height: auto; /* Hauteur*/
+  max-width: 200px;
+  height: auto;
 }
 
 #imgMADDbatiment {
@@ -271,7 +250,6 @@ main {
   margin-bottom: 60px;
 }
 
-/* Ajout des styles responsive mobile pour la page index */
 @media (max-width: 768px) {
   main {
     margin-left: 5%;
@@ -326,11 +304,10 @@ main {
 
   .hero-visual img {
     max-width: 100%;
-    width: 100%;
+    width: 100
     height: auto;
   }
 
-  /* Blocks mobile */
   .block {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -350,7 +327,6 @@ main {
     text-align: left;
   }
 
-  /* Correction des cartes pour qu'elles aient toutes la même taille */
   #cartes {
     flex-direction: column;
     gap: 20px;
