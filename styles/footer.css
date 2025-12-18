@@ -142,7 +142,7 @@ h5 span {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   footer {
     padding: 30px 20px 0 20px;
   }
