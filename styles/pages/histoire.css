@@ -58,7 +58,7 @@ main {
   margin: 100px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   main {
     margin-left: 5%;
     margin-right: 5%;
