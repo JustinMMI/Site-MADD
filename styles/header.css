@@ -97,14 +97,13 @@ header nav ul li ul {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -3px;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
     min-width: 200px;
     z-index: 1000;
     border-left: 3px solid;
-    margin-left: -3px;
 }
 
 header nav ul li:hover ul {
@@ -142,8 +141,13 @@ header nav ul li.blue-h > ul {
     border-left-color: #3E5C76;
 }
 
+header nav ul li.yellow-h  {
+    border-left-color: #F4D03F;
+}
+
 header nav ul li.yellow-h > ul {
     border-left-color: #F4D03F;
+
 }
 
 header nav ul li.yellow-h {
