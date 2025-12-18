@@ -46,15 +46,14 @@
 }
 
 .bandeau p {
-  color: inherit;
+  color: white;
   margin: 0;
 }
 
 .bandeau:hover {
   color: white;
-  background-color: #a12330;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Ajout des styles responsive mobile pour les composants */
