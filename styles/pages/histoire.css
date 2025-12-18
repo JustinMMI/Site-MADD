@@ -2,12 +2,14 @@ body {
   background-color: #ffffff;
 }
 
-a {
+/* Limiter les styles des liens au contenu de la page
+   pour ne pas impacter le header/nav et le bandeau */
+main a {
   color: red;
   text-decoration: none;
 }
 
-a:hover {
+main a:hover {
   text-decoration: underline;
 }
 
