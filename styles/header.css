@@ -169,8 +169,10 @@ header nav ul li.yellow-h {
 /* Responsive */
 @media (max-width: 1100px) {
     .contact-mobile {
+        max-width: 90%;
         display: block;
     }
+
     header {
         flex-wrap: wrap;
         gap: 12px;
@@ -220,8 +222,13 @@ header nav ul li.yellow-h {
         padding: 12px 14px;
     }
 
-    header nav ul li:hover {
+    header nav ul li :hover {
         background-color: #f7f7f7;
+        border-left: none;
+    }
+
+    .contact-mobile :hover {
+        background-color: #b99c27;
         border-left: none;
     }
 
