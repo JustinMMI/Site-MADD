@@ -52,10 +52,6 @@ header button {
     border-radius: 2px;
 }
 
-.submenu-toggle {
-    display: none;
-}
-
 .contenu_h {
     max-width: 80%;
 }
@@ -77,14 +73,6 @@ header nav ul li a {
     text-decoration: none;
     color: #333;
     padding: 10px;
-}
-
-header nav ul li label {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    cursor: pointer;
-    display: inline;
 }
 
 header nav ul li:hover {
@@ -196,11 +184,6 @@ header nav ul li.yellow-h > ul {
         padding: 12px 14px;
     }
 
-    header nav ul li label {
-        display: block;
-        padding: 12px 14px;
-    }
-
     header nav ul li:hover {
         background-color: #f7f7f7;
         border-left: none;
@@ -215,11 +198,6 @@ header nav ul li.yellow-h > ul {
     }
 
     header nav ul li:hover ul {
-        display: block;
-    }
-
-    /* Au clic sur mobile */
-    header nav ul li .submenu-toggle:checked ~ ul {
         display: block;
     }
 
