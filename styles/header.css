@@ -87,7 +87,7 @@ header nav ul li label {
     display: inline;
 }
 
-header nav ul li:hover {
+header nav > ul > li:hover {
     background-color: #f0f0f0;
     border-left: 3px solid;
 }
@@ -104,6 +104,7 @@ header nav ul li ul {
     min-width: 200px;
     z-index: 1000;
     border-left: 3px solid;
+    margin-left: -3px;
 }
 
 header nav ul li:hover ul {
@@ -126,6 +127,11 @@ header nav ul li ul li:hover {
 
 header nav ul li.red-h > ul {
     border-left-color: #D72638;
+}
+
+/* TODO: Faire pareil pour les autres couleurs */
+header nav ul li.blue-h {
+    border-left-color: #3E5C76;
 }
 
 header nav ul li.blue-h > ul {

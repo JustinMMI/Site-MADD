@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Urbanist";
-  src: url("../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
+  src: url("/sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "SpectralSC";
-  src: url("../sources/polices/Spectral_SC/SpectralSC-Regular.ttf") format("truetype");
+  src: url("/sources/polices/Spectral_SC/SpectralSC-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "SpectralSC";
-  src: url("../sources/polices/SpectralSC/SpectralSC-Medium.ttf") format("truetype");
+  src: url("/sources/polices/Spectral_SC/SpectralSC-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
