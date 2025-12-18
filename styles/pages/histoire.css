@@ -111,6 +111,15 @@ main {
     flex-direction: column;
   }
 
+  .hotel {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 60px 0;
+    /* Utilisation de flexbox pour réorganiser les éléments visuellement */
+    display: flex;
+    flex-direction: column;
+  }
+
   .block h2 {
     font-size: 36px;
   }
@@ -207,3 +216,10 @@ main {
     font-size: 28px;
   }
 }
+
+@media (max-width: 768px) {
+  .hotel {
+    flex-direction: column-reverse;
+  }
+}
+
