@@ -129,6 +129,10 @@ header nav ul li.red-h > ul {
     border-left-color: #D72638;
 }
 
+header nav ul li.red-h {
+    border-left-color: #D72638;
+}
+
 /* TODO: Faire pareil pour les autres couleurs */
 header nav ul li.blue-h {
     border-left-color: #3E5C76;
@@ -139,6 +143,10 @@ header nav ul li.blue-h > ul {
 }
 
 header nav ul li.yellow-h > ul {
+    border-left-color: #F4D03F;
+}
+
+header nav ul li.yellow-h {
     border-left-color: #F4D03F;
 }
 
