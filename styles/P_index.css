@@ -21,9 +21,119 @@ main {
     background-color: #ffffff;
     margin-left : 10% ;
     margin-right : 10% ;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/* Hero */
+.hero {
+    margin-bottom: 120px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #2d2d2d;
+    letter-spacing: 0.4px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff4d67;
+    display: inline-block;
+}
+
+/*.hero-title {
+    line-height: 0.95;
+    font-weight: 700;
+    color: #111111;
+}
+
+.hero-brand {
+    letter-spacing: 2px;
+}
+
+.hero-city {
+    font-size: 58px;
+    font-weight: 400;
+}*/
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-visual {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.hero-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.shape {
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+.shape-red {
+    width: 90px;
+    height: 90px;
+    background: #d63d4a;
+    top: -35px;
+    left: -45px;
+}
+
+.shape-yellow {
+    width: 160px;
+    height: 160px;
+    background: #f1c842;
+    border-radius: 50%;
+    bottom: -55px;
+    right: -60px;
+}
+
+.shape-blue {
+    width: 110px;
+    height: 110px;
+    background: #3b5c78;
+    bottom: -40px;
+    left: -25px;
+}
+
+.contenu {
+    margin-top: 20px;
+}
+
 
 /* End of CSS file */
 /* Main styles for the webpage */
@@ -61,6 +171,16 @@ main {
     height: 450px;
 }
 
+.imgleft,
+.imgright,
+.imgmiddle,
+.p-gauche,
+.p-droite {
+    float: none;
+    width: auto;
+}
+
+
 .imgmiddle {
     display: block;
     float: left;
@@ -71,54 +191,102 @@ main {
     display: block;
     float: left;
     height: auto;
+    width : 80%;
+    padding: 10px;
 }
 
 .imgright {
     display: block;
     float: right;
     height: auto;
+    width : 80%;
+    padding: 10px;
 }
 
+.p-gauche,
 .p-droite {
-    display: block;
-    text-align: right;
-}
-
-.p-gauche {
-    display: block;
-    text-align: left;
-}
-
-.bloc-droite {
-    display: block;
-    float: right;
-}
-
-.bloc-gauche {
-    display: block;
-    float: left;
-}
-
-.bloc-droite .p-gauche p{
-    max-width: 500px;
-}
-
-.logo3 {
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
-.logo3 .img-droite,
-.logo3 .p-gauche {
-    float: none;
+.p-droite {
+    text-align: left;
 }
 
-.logo3 img {
+.p-gauche {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .block {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+
+.block img {
     width: 100%;
-    max-width: 140px;
     height: auto;
     display: block;
 }
 
+.block img {
+    max-height: 360px;
+    object-fit: cover;
+}
+
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+.logo3 {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    align-items: center;
+    text-align: right;
+    gap: 16px;
+    border-left: 9px solid;
+    border-bottom: 3px solid;
+    padding: 15px;
+}
+
+.red-b {
+    border-color: #d63d4a;
+}
+
+.yellow-b {
+    border-color: #f1c842 ;
+}
+
+.blue-b {
+    border-color: #3b5c78 ;
+}
+
+#cartes {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.newsletter{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+.news-text{
+    padding-bottom: 20px;
+    text-align: center;
+}

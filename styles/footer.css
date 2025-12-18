@@ -5,6 +5,7 @@ footer {
     font-size: 14px;
     padding: 40px 50px 0 50px;
     clear: both;
+    border-top: #D72638 6px solid;
 }
 
 footer a {
@@ -48,7 +49,7 @@ footer p {
 }
 
 .legal-links a:hover {
-    color: #e74c3c;
+    color: #D72638;
 }
 
 h5 {
@@ -62,7 +63,7 @@ h5 span {
 }
 
 .red {
-    color: #e74c3c;
+    color: #D72638;
 }
 .blue {
     color: #3E5C76;

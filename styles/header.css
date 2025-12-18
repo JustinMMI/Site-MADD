@@ -3,11 +3,13 @@
 
 
 header {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #fff;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px #0000001a;
-    position: relative;
+    padding: 12px 20px;
+    position: relative; 
+    z-index: 1000;
 }
 
 header::after {
@@ -17,20 +19,41 @@ header::after {
 }
 
 header nav {
-    position: absolute;
-    right: 150px;
-    top: 50%;
-    transform: translateY(-50%);
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
     text-align: right;
 }
 
 header button {
-    position: absolute;
-    right: 20px;
-    border : none;
+    border: none;
     background: none;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-left: 16px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    background: #111;
+    border-radius: 2px;
+}
+
+.submenu-toggle {
+    display: none;
 }
 
 .contenu_h {
@@ -56,8 +79,17 @@ header nav ul li a {
     padding: 10px;
 }
 
+header nav ul li label {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    display: inline;
+}
+
 header nav ul li:hover {
     background-color: #f0f0f0;
+    border-left: 3px solid;
 }
 
 /* Submenu styles */
@@ -71,6 +103,7 @@ header nav ul li ul {
     margin: 0;
     min-width: 200px;
     z-index: 1000;
+    border-left: 3px solid;
 }
 
 header nav ul li:hover ul {
@@ -89,4 +122,105 @@ header nav ul li ul li a {
 
 header nav ul li ul li:hover {
     background-color: #f0f0f0;
+}
+
+header nav ul li.red-h > ul {
+    border-left-color: #D72638;
+}
+
+header nav ul li.blue-h > ul {
+    border-left-color: #3E5C76;
+}
+
+header nav ul li.yellow-h > ul {
+    border-left-color: #F4D03F;
+}
+
+.contact-mobile {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+    .contact-mobile {
+        display: block;
+    }
+    header {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    header nav {
+        transform: none;
+        width: 100%;
+        text-align: left;
+        display: none;
+        background: #ffffff;
+        border-top: 1px solid #e6e6e6;
+        padding: 8px 0;
+        flex: 1 0 100%;
+    }
+
+    #nav-toggle:checked ~ nav {
+        display: block;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .contact-desktop {
+        display: none;
+    }
+
+    .contact-mobile a {
+        display: block;
+        padding: 12px 14px;
+        font-weight: 700;
+        color: #111;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 12px 14px;
+    }
+
+    header nav ul li label {
+        display: block;
+        padding: 12px 14px;
+    }
+
+    header nav ul li:hover {
+        background-color: #f7f7f7;
+        border-left: none;
+    }
+
+    header nav ul li ul {
+        position: static;
+        background-color: #f9f9f9;
+        border-left: none;
+        display: none;
+        padding-left: 12px;
+    }
+
+    header nav ul li:hover ul {
+        display: block;
+    }
+
+    /* Au clic sur mobile */
+    header nav ul li .submenu-toggle:checked ~ ul {
+        display: block;
+    }
+
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,24 @@
     <link rel="stylesheet" href="Styles/P_index.css">
     <link rel="stylesheet" href="Styles/components.css">
 </head>
+
 <body>
+
     <section> <!--bandeau travaux-->
-        <a href="#">
-            <div class="bandeau">
-                <p>Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- <a href="#">Cliquez ici pour en savoir plus.</a></p>
-            </div>
+        <a class="bandeau" href="travaux.html">
+            <a class="extra" href="#">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir
+                plus</a>
         </a>
     </section>
+
+
+
     <header>
-        <img src="sources/images/logoMAAD_b.png" id ="logoMADD" alt="Logo MADD" href="index.html">
+        <a href="/"><img src="sources/images/logoMAAD_b.png" alt="Logo MADD" id="logoMADD"></a>
         <nav> <!--menu de navigation-->
             <ul>
-                <li>
-                    <a href="#">Programmation</a>
+                <li class="red-h">
+                    <a href="#" class="p2">Programmation v</a>
                     <ul>
                         <li><a href="#">Collections permanentes</a></li>
                         <li><a href="#">Agenda</a></li>
@@ -35,8 +40,8 @@
                         <li><a href="#">Expositions temporaires</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Le MADD & Vous</a>
+                <li class="blue-h">
+                    <a href="#" class="p2">Le MADD & Vous v</a>
                     <ul>
                         <li><a href="#">Podcasts</a></li>
                         <li><a href="#">Vidéos</a></li>
@@ -45,8 +50,8 @@
                         <li><a href="#">Newsletter</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Le Musée</a>
+                <li class="yellow-h">
+                    <a href="#" class="p2">Le Musée v</a>
                     <ul>
                         <li><a href="#">Le musée aujourd'hui</a></li>
                         <li><a href="histoire.html">L'histoire du musée</a></li>
@@ -55,8 +60,8 @@
                         <li><a href="#">Le musée dans la presse</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Infos Pratiques</a>
+                <li class="red-h">
+                    <a href="#" class="p2">Infos Pratiques v</a>
                     <ul>
                         <li><a href="#">Horaires</a></li>
                         <li><a href="#">Se rendre au musée</a></li>
@@ -64,8 +69,8 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Langues</a>
+                <li class="blue-h">
+                    <a href="#" class="p2">Langues v</a>
                     <ul>
                         <li><a href="#">Français</a></li>
                         <li><a href="#">Anglais</a></li>
@@ -73,84 +78,151 @@
                 </li>
             </ul>
         </nav>
-        <button>Contact</buttons>
+        <button class="boutton button-yellow">Contact</button>
     </header>
+
+
+
+
+
+
     <main>
-        <div class="p-gauche">
+
+        <div class="block-title">
             <h1>Histoire du musée</h1>
-            <section> <!--L'hôtel de Lalande-->
-                <h2>L'Hôtel de Lalande</h2>
-                <p>En 1775, Pierre de Raymond de Lalande (1727-1787), conseiller au parlement de Bordeaux, achète un grand emplacement près du palais Rohan, paroisse Saint-Christoly, pour lequel il demande l'autorisation de faire bâtir son hôtel particulier en 1778. </p>
-                <p>L'hôtel de Lalande fut édifié à la fin de l'Ancien régime pour une riche famille de parlementaires bordelais. Sobre et imposant, cet hôtel particulier construit entre cour et jardin compte parmi les plus belles demeures aristocratiques du XVIIIe siècle bordelais.</p>
-                <p>Mise en vente dès 1828, la propriété des héritiers Lalande change plusieurs fois de mains au cours du 19e siècle. L'hôtel est enfin acheté  en 1839 par le négociant, Jean-Baptiste Duffour Debarte, qui lègue ce bien à son fils, Lodi Martin Duffour Dubergier, maire de Bordeaux de 1842 à 1848.</p>
-            </div>
-            <div class="img-droite">
+        </div>
+
+        <section class="block"> <!--L'hôtel de Lalande-->
+                <div class="p2 text-left">
+                    <h2>L'Hôtel de Lalande</h2>
+                    <p>En 1775, Pierre de Raymond de Lalande (1727-1787), conseiller au parlement de Bordeaux, achète un grand emplacement près du palais Rohan, paroisse Saint-Christoly, pour lequel il demande l'autorisation de faire bâtir son hôtel particulier en 1778. </p>
+                    <p>L'hôtel de Lalande fut édifié à la fin de l'Ancien régime pour une riche famille de parlementaires bordelais. Sobre et imposant, cet hôtel particulier construit entre cour et jardin compte parmi les plus belles demeures aristocratiques du XVIIIe siècle bordelais.</p>
+                    <p>Mise en vente dès 1828, la propriété des héritiers Lalande change plusieurs fois de mains au cours du 19e siècle. L'hôtel est enfin acheté  en 1839 par le négociant, Jean-Baptiste Duffour Debarte, qui lègue ce bien à son fils, Lodi Martin Duffour Dubergier, maire de Bordeaux de 1842 à 1848.</p>
+                </div>
+            <div class="img-right">
+                
                 <img src="sources/images/histoire/chateau.png" alt="Image de l'hôtel de Lalande">
             </div>
         </section>
-        <section> <!--Une Prison Bordelaise-->
-            <div class="p-droite">
-            <h2>Une Prison Bordelaise</h2>
-            <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880.</p>
-            <p>En 1887, l'hôtel de Lalande devient Caserne municipale, l'aile des communs accueille écurie, magasin à foin, cour de passage et sellerie, tandis que les services de la sûreté et des mœurs -division municipale, commissaire central et petit parquet- s'installent dans le corps de logis principal.</p>
-            <p>L'ancien jardin, clôturé de grands murs et planté de plus de soixante arbres sur trois rangs, de gazon, de plantes ou d'arbustes, disparaît au profit d'une vaste prison construite de solides murs en pierre formant un quadrilatère.
-            Les services de police quitteront définitivement l'hôtel de Lalande en 1964.</p>
+
+
+
+
+        <section class="block"> <!--Une Prison Bordelaise-->
+            <div class="">
+                <div class="p2">
+                    <h2>Une Prison Bordelaise</h2>
+                    <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880.</p>
+                    <p>En 1887, l'hôtel de Lalande devient Caserne municipale, l'aile des communs accueille écurie, magasin à foin, cour de passage et sellerie, tandis que les services de la sûreté et des mœurs -division municipale, commissaire central et petit parquet- s'installent dans le corps de logis principal.</p>
+                    <p>L'ancien jardin, clôturé de grands murs et planté de plus de soixante arbres sur trois rangs, de gazon, de plantes ou d'arbustes, disparaît au profit d'une vaste prison construite de solides murs en pierre formant un quadrilatère. Les services de police quitteront définitivement l'hôtel de Lalande en 1964.</p>
+                </div>
             </div>
-            <div class="img-gauche">
+            <div class="img-left">
             <img src="sources/images/histoire/chateauvieux.png" alt="L'hôtel de Lalande maintenant transformé en prison et police municipale"></div>
         </section>
-        <section> <!--Les Débuts du Musée-->
-            <div class="p-gauche">
-                <h2>Les Débuts du Musée</h2>
-                <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880. </p>
-                <p>La guerre conduit le musée à fermer ses portes en 1940, et le 2 juillet 1955, le musée rouvre au public sous le nom de musée des Arts décoratifs.Le réaménagement complet des salons de l'hôtel de Lalande a été orchestré après la guerre par Xavier Védère, conservateur des archives municipales.Les collections du musée s'étendent désormais du Moyen-âge à la fin du XVIIIe siècle, et illustrent les arts appliqués du bois, du fer, de la terre, et du feu. La richesse et la variété des collections de faïences et de porcelaines place le musée des Arts décoratifs au premier rang des collections françaises de céramiques.</p>
-                <p>Nommée conservateur du musée en 1972, Jacqueline du Pasquier étend les espaces d'exposition. L'étage des combles ouvre au public, l'aile des communs remaniée reçoit la collection Jeanvrot et accueille des espaces d'expositions temporaires.</p>
+
+
+
+
+        <section class="block"> <!--Les Débuts du Musée-->
+            <div class="">
+                <h2 class = "p-gauche">Les Débuts du Musée</h2>
+                <div class="p2">  
+                    <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880. </p>
+                    <p>La guerre conduit le musée à fermer ses portes en 1940, et le 2 juillet 1955, le musée rouvre au public sous le nom de musée des Arts décoratifs.Le réaménagement complet des salons de l'hôtel de Lalande a été orchestré après la guerre par Xavier Védère, conservateur des archives municipales.Les collections du musée s'étendent désormais du Moyen-âge à la fin du XVIIIe siècle, et illustrent les arts appliqués du bois, du fer, de la terre, et du feu. La richesse et la variété des collections de faïences et de porcelaines place le musée des Arts décoratifs au premier rang des collections françaises de céramiques.</p>
+                    <p>Nommée conservateur du musée en 1972, Jacqueline du Pasquier étend les espaces d'exposition. L'étage des combles ouvre au public, l'aile des communs remaniée reçoit la collection Jeanvrot et accueille des espaces d'expositions temporaires.</p>
+                </div>
             </div>
         </section>
-        <section> <!--Le MADD actuellement-->
-        <div class="p-gauche">
+
+
+        <section class="block"> <!--Le MADD actuellement-->
+        <div class="">
+
             <h2>Le MADD actuellement</h2>
-            <p>En 1984, le musée est réaménagé pour évoquer une riche demeure aristocratique, emblématique du siècle des Lumières bordelais. Ses collections constituent un exemple des arts décoratifs français, en particulier bordelais, des XVIIIème et XIXème siècles, et un témoignage de l'histoire de Bordeaux, grand port de négoce au XVIIIème siècle.En 2013, son nom évolue en « musée des Arts décoratifs et du Design ». Depuis, le madd-bordeaux développe une programmation conséquente faisant dialoguer arts décoratifs et design, notamment à travers la présentation renouvelée de sa collection de design au sein des espaces dédiés aux collections anciennes et l'organisation d'expositions temporaires. </p>
-            <p>Pour en savoir plus sur le musée actuel, visiter notre page “Le musée aujourd'hui” !</p> </div>
-        <div class="img-droite">
+            <div class="p2">
+                <p>En 1984, le musée est réaménagé pour évoquer une riche demeure aristocratique, emblématique du siècle des Lumières bordelais. Ses collections constituent un exemple des arts décoratifs français, en particulier bordelais, des XVIIIème et XIXème siècles, et un témoignage de l'histoire de Bordeaux, grand port de négoce au XVIIIème siècle.En 2013, son nom évolue en « musée des Arts décoratifs et du Design ». Depuis, le madd-bordeaux développe une programmation conséquente faisant dialoguer arts décoratifs et design, notamment à travers la présentation renouvelée de sa collection de design au sein des espaces dédiés aux collections anciennes et l'organisation d'expositions temporaires.</p>
+                <p>Pour en savoir plus sur le musée actuel, visiter notre page “Le musée aujourd'hui” !</p> 
+            </div>
+        </div>
+
+        <div class="img-right">
             <img src="sources/images/histoire/actuel.png" alt="Le MADD actuellement">
         </div>
-        </section> <!--bas de page-->
-        <p>Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
-        <button>newsletter</button>
+
+        </section>
+
+
+
+
+
+
+        <section class="newsletterhistory"> <!--bas de page-->
+            <p class="p1">Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
+            <button class="boutton button-yellow">S'inscrire à la newsletter</button>
+        </section>
+
     </main>
 
 
+
+
+
+
+
     <footer>
-        <section> <!--logos-->
-            <img src="sources/images/logoMAAD_w.png" alt="logo MADD">
-            <img src="sources/images/image 25.png" alt="logo bordeaux culture">
-            <img src="sources/images/image 26.png" alt="logo Châteaux Haut-Bailly, mécène d'honneur">
-        </section>
-        <section>
-            <!--contact-->
-            <h5>Contact</h5>
-            <p>39 rue Bouffard, 33000 Bordeaux</p>
-            <p>+33 (0)5 56 10 14 50</p>
-            <a href="mailto:contact@madd-bordeaux.fr">contact@madd-bordeaux.fr</a>
-        </section>
-        <section>
-            <!-- horaires-->
-            <h5>Horaires</h5>
-            <p>Mer-Dim  14h-18h</p>
-            <p>Lun-Mar  Fermé</p>
-            <p>Entrée Gratuite</p>
-        </section>
-        <section>
-            <!-- réseaux sociaux-->
-            <h5>Suivez-nous</h5>
-            <img src="sources/images/yt.png" alt="logo Youtube">
-            <p>Youtube</p>
-            <img src="sources/images/logo ig.png" alt="logo instagram">
-            <p>Instagram</p>
-            <img src="sources/images/fb.png" alt="logo fb">
-            <p>Facebook</p>
-        </section>
+        <div class="footer-main">
+            <section class="col-logos">
+                <img src="sources/images/logoMAAD_w.png" alt="logo MADD" class="logo-principal">
+                <div class="logos-partenaires">
+                    <img src="sources/images/image 25.png" alt="Bordeaux Culture">
+                    <img src="sources/images/image 26.png" alt="Haut-Bailly">
+                </div>
+            </section>
+            <section class="col-contact">
+                <h5><span class="red">|</span> CONTACT</h5>
+                <p>39 rue Bouffard</p>
+                <p>33000 Bordeaux, France</p>
+                <br>
+                <p>+33 5 56 10 25 00</p>
+                <br>
+                <a href="mailto:madd@mairie-bordeaux.fr">madd@mairie-bordeaux.fr</a>
+            </section>
+            <section class="col-horaires">
+                <h5><span class="blue">|</span> HORAIRES</h5>
+                <div class="horaire-row">
+                    <strong>Mer - Dim</strong> <span>14h - 18h</span>
+                </div>
+                <div class="horaire-row">
+                    <strong>Lun - Mar</strong> <span>Fermé</span>
+                </div>
+                <br>
+                <p><strong>Entrée Gratuite</strong></p>
+            </section>
+            <section class="col-social">
+                <h5><span class="yellow">|</span> RÉSEAUX</h5>
+                <div class="social-row">
+                    <img src="sources/images/yt.png" alt="Youtube">
+                    <a href="#">@museedesartsdecoratifsetdesign</a>
+                </div>
+                <div class="social-row">
+                    <img src="sources/images/ig.png" alt="Instagram">
+                    <a href="#">@madd_bordeaux</a>
+                </div>
+                <div class="social-row">
+                    <img class="fb-icon" src="sources/images/fb.png" alt="Facebook">
+                    <a href="#">  Musée des Arts décoratifs...</a>
+                </div>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 MADD Bordeaux. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">LÉGAL</a>
+                <a href="#">CONFIDENTIALITÉ</a>
+                <a href="#">ACCESSIBILITÉ</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
