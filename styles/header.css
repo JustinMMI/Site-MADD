@@ -31,6 +31,13 @@ header button {
     margin-left: 16px;
 }
 
+/* Taille du logo uniforme sur toutes les pages */
+#logoMADD {
+    display: block;
+    max-width: 200px;
+    height: auto;
+}
+
 .nav-toggle {
     display: none;
 }
@@ -65,6 +72,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: block; /* Override global system.css flex on nav ul */
 }
 
 header nav ul li {

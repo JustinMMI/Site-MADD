@@ -46,7 +46,7 @@
 }
 
 .bandeau p {
-  color: inherit;
+  color: #fff; /* Forcer le texte en blanc pour tous les contextes */
   margin: 0;
 }
 
