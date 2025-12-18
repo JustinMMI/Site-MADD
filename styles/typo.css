@@ -1,53 +1,53 @@
 @font-face {
-    font-family: 'Urbanist';
-    src: url('../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
+  font-family: "Urbanist";
+  src: url("../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'SpectralSC';
-    src: url('../sources/polices/Spectral_SC/SpectralSC-Regular.ttf') format('truetype');
+  font-family: "SpectralSC";
+  src: url("../sources/polices/Spectral_SC/SpectralSC-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'SpectralSC';
-    src: url('../sources/polices/SpectralSC/SpectralSC-Medium.ttf') format('truetype');
-    font-weight: 500;
+  font-family: "SpectralSC";
+  src: url("../sources/polices/SpectralSC/SpectralSC-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
 
 h1 {
-    color: black;
-    font-size: 96px;
-    font-weight: 400;
-    font-family: 'SpectralSC';
+  color: black;
+  font-size: 96px;
+  font-weight: 400;
+  font-family: "SpectralSC";
 }
 
 h2 {
-    color: black;
-    font-size: 55px;
-    font-weight: 400;
-    font-family: 'SpectralSC';
+  color: black;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: "SpectralSC";
 }
 
 h3 {
-    color: black;
-    font-size: 48px;
-    font-weight: 400;
-    font-family: 'SpectralSC';
+  color: black;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "SpectralSC";
 }
 
 h4 {
-    color: black;
-    font-size: 36px;
-    font-weight: 400;
-    font-family: 'SpectralSC';
+  color: black;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "SpectralSC";
 }
 
 h5 {
-    font-size: 1.25em;
-    margin-bottom: 0.5em;
-    color: white;
-    font-weight: 400;
-    font-family: 'SpectralSC';
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  color: white;
+  font-weight: 400;
+  font-family: "SpectralSC";
 }
 /*p {
     color: black;
@@ -55,46 +55,139 @@ h5 {
     font-weight: 400;
     font-family: 'Urbanist';
 }*/
-.p2{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Urbanist';
+.p2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Urbanist";
 }
 
-.p1{
-    color: black;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Urbanist';
+.p1 {
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Urbanist";
 }
 
-.extra{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Urbanist';
+.extra {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Urbanist";
 }
 
-.boutton{
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Urbanist';
+.boutton {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Urbanist";
 }
 
-a{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Urbanist';
+a {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Urbanist";
 }
 footer p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: white;
-    font-family: Urbanist;
-    position: middle;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  font-family: Urbanist;
+  position: middle;
 }
 
 .h1-left {
-    text-align: left;
+  text-align: left;
+}
+
+/* Ajout des styles responsive mobile pour la typographie */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .p1 {
+    font-size: 20px;
+  }
+
+  .p2 {
+    font-size: 18px;
+  }
+
+  .extra {
+    font-size: 14px;
+  }
+
+  .boutton {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .p1 {
+    font-size: 18px;
+  }
+
+  .p2 {
+    font-size: 16px;
+  }
+
+  .extra {
+    font-size: 13px;
+  }
+
+  .boutton {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
 }

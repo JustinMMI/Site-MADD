@@ -1,61 +1,61 @@
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 main {
-    background-color: #ffffff;
-    margin-left : 10% ;
-    margin-right : 10% ;
-    margin-top: 60px;
-    margin-bottom: 60px;
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Hero */
 .hero {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
 }
 
 .hero-left {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .status {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    color: #2d2d2d;
-    letter-spacing: 0.4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #2d2d2d;
+  letter-spacing: 0.4px;
 }
 
 .status-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #ff4d67;
-    display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4d67;
+  display: inline-block;
 }
 
 /*.hero-title {
@@ -74,100 +74,97 @@ main {
 }*/
 
 .hero-actions {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .hero-right {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-visual {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
 }
 
 .hero-visual img {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-    z-index: 2;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 2;
 }
 
 .shape {
-    position: absolute;
-    z-index: 1;
-    display: block;
+  position: absolute;
+  z-index: 1;
+  display: block;
 }
 
 .shape-red {
-    width: 90px;
-    height: 90px;
-    background: #d63d4a;
-    top: -35px;
-    left: -45px;
+  width: 90px;
+  height: 90px;
+  background: #d63d4a;
+  top: -35px;
+  left: -45px;
 }
 
 .shape-yellow {
-    width: 160px;
-    height: 160px;
-    background: #f1c842;
-    border-radius: 50%;
-    bottom: -55px;
-    right: -60px;
+  width: 160px;
+  height: 160px;
+  background: #f1c842;
+  border-radius: 50%;
+  bottom: -55px;
+  right: -60px;
 }
 
 .shape-blue {
-    width: 110px;
-    height: 110px;
-    background: #3b5c78;
-    bottom: -40px;
-    left: -25px;
+  width: 110px;
+  height: 110px;
+  background: #3b5c78;
+  bottom: -40px;
+  left: -25px;
 }
 
 .contenu {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-
 
 /* End of CSS file */
 /* Main styles for the webpage */
 /* Additional styles can be added below */
 
-
-
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
 
-    h1 {
-        font-size: 24px;
-    }
+  h1 {
+    font-size: 24px;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 }
 
 /* End of responsive styles */
 #logoMADD {
-    display: block;
-    float: left;
-    max-width: 200px; /* Largeur */
-    height: auto; /* Hauteur*/
+  display: block;
+  float: left;
+  max-width: 200px; /* Largeur */
+  height: auto; /* Hauteur*/
 }
 
 #imgMADDbatiment {
-    display: block;
-    float: right;
-    height: 450px;
+  display: block;
+  float: right;
+  height: 450px;
 }
 
 .imgleft,
@@ -175,105 +172,243 @@ main {
 .imgmiddle,
 .p-gauche,
 .p-droite {
-    float: none;
-    width: auto;
+  float: none;
+  width: auto;
 }
 
-
 .imgmiddle {
-    display: block;
-    float: left;
-    height: auto;
+  display: block;
+  float: left;
+  height: auto;
 }
 
 .imgleft {
-    display: block;
-    float: left;
-    height: auto;
-    width : 80%;
-    padding: 10px;
+  display: block;
+  float: left;
+  height: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .imgright {
-    display: block;
-    float: right;
-    height: auto;
-    width : 80%;
-    padding: 10px;
+  display: block;
+  float: right;
+  height: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .p-gauche,
 .p-droite {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .p-droite {
-    text-align: left;
+  text-align: left;
 }
 
 .p-gauche {
-    text-align: left;
+  text-align: left;
 }
 
 @media (max-width: 900px) {
-    .block {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-}
-
-
-.block img {
-    width: 100%;
-    height: auto;
-    display: block;
+  .block {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 
 .block img {
-    max-height: 360px;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+.block img {
+  max-height: 360px;
+  object-fit: cover;
+}
 
 .block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-    margin: 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin: 100px 0;
 }
 
-
 .logo3 {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    align-items: center;
-    text-align: right;
-    gap: 16px;
-    border-left: 9px solid;
-    border-bottom: 3px solid;
-    padding: 15px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  text-align: right;
+  gap: 16px;
+  border-left: 9px solid;
+  border-bottom: 3px solid;
+  padding: 15px;
 }
 
 .red-b {
-    border-color: #d63d4a;
+  border-color: #d63d4a;
 }
 
 .yellow-b {
-    border-color: #f1c842 ;
+  border-color: #f1c842;
 }
 
 .blue-b {
-    border-color: #3b5c78 ;
+  border-color: #3b5c78;
 }
 
 #cartes {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+/* Ajout des styles responsive mobile pour la page index */
+@media (max-width: 768px) {
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  /* Correction du débordement de la section hero sur mobile */
+  .hero {
     margin-bottom: 60px;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 100%;
+  }
+
+  .hero-left {
+    gap: 16px;
+    max-width: 100%;
+  }
+
+  .hero-title img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .boutton {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-right {
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-visual {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .hero-visual img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Blocks mobile */
+  .block {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 60px 0;
+  }
+
+  .imgleft,
+  .imgright {
+    width: 100%;
+    padding: 0;
+    order: 1;
+  }
+
+  .p-gauche,
+  .p-droite {
+    order: 2;
+    text-align: left;
+  }
+
+  /* Correction des cartes pour qu'elles aient toutes la même taille */
+  #cartes {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .logo3 {
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding: 20px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: auto;
+  }
+
+  .logo3 .p-gauche {
+    width: 100%;
+  }
+
+  .logo3 .img-right {
+    order: -1;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .logo3 .img-right img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .logo3 h4 {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .hero {
+    margin-bottom: 40px;
+  }
+
+  .hero-left {
+    gap: 12px;
+  }
+
+  .block {
+    margin: 40px 0;
+  }
+
+  #cartes {
+    gap: 15px;
+  }
+
+  .logo3 {
+    padding: 15px 12px;
+  }
 }

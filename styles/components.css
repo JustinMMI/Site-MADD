@@ -1,59 +1,104 @@
-.button-yellow{
-    background-color:rgba(244, 208, 63, 1);
-    color: black;
-    border: none;
-    padding: 10px 20px;
+.button-yellow {
+  background-color: rgba(244, 208, 63, 1);
+  color: black;
+  border: none;
+  padding: 10px 20px;
 }
 .button-yellow:hover {
-    background-color:rgba(185,156,39);
+  background-color: rgba(185, 156, 39);
 }
 
-
-.button-black{
-    background-color:black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+.button-black {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 .button-black:hover {
-    background-color: rgba(70,70,70);
+  background-color: rgba(70, 70, 70);
 }
 
-.button-white{
-    background-color:white;
-    color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    padding: 8px 18px;
-    cursor: pointer;
+.button-white {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 8px 18px;
+  cursor: pointer;
 }
 .button-white:hover {
-    background-color: rgba(220,220,220);
+  background-color: rgba(220, 220, 220);
 }
 .bandeau {
-    display: block;
-    text-decoration: none;
-    background-color: #D72638;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    font-family: Urbanist, sans-serif;
-    border-bottom: black 4px solid;
+  display: block;
+  text-decoration: none;
+  background-color: #d72638;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: Urbanist, sans-serif;
+  border-bottom: black 4px solid;
 }
 
 .bandeau p {
-    color: inherit;
-    margin: 0;
+  color: inherit;
+  margin: 0;
 }
 
 .bandeau:hover {
-    color: black;
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Ajout des styles responsive mobile pour les composants */
+@media (max-width: 768px) {
+  .bandeau {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .bandeau p {
+    line-height: 1.4;
+  }
+
+  .button-yellow,
+  .button-black,
+  .button-white {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .newsletter {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .news-text {
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bandeau {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .button-yellow,
+  .button-black,
+  .button-white {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
 }
