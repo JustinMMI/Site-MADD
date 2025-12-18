@@ -22,13 +22,27 @@ main {
     background-color: #ffffff;
     margin-left : 10% ;
     margin-right : 10% ;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 /* End of CSS file */
 /* Main styles for the webpage */
 /* Additional styles can be added below */
 
+.buttonindex {
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
 
+.logo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
 
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {

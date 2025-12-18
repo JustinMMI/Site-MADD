@@ -17,7 +17,7 @@
 <body>
     <section> <!--bandeau travaux-->
         <a class="bandeau" href="travaux.html">
-            <p>Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir plus</p>
+            <p class="extra">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir plus</p>
         </a>
     </section>
     <header>
@@ -25,7 +25,7 @@
         <nav> <!--menu de navigation-->
             <ul>
                 <li>
-                    <a href="#">Programmation</a>
+                    <a href="#" class="p2" >Programmation</a>
                     <ul>
                         <li><a href="#">Collections permanentes</a></li>
                         <li><a href="#">Agenda</a></li>
@@ -34,7 +34,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Le MADD & Vous</a>
+                    <a href="#" class="p2" >Le MADD & Vous</a>
                     <ul>
                         <li><a href="#">Podcasts</a></li>
                         <li><a href="#">Vidéos</a></li>
@@ -71,7 +71,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="button button-yellow">CONTACT</button>
+        <button class="button button-yellow">Contact</button>
     </header>
     <main>
         <section> 
@@ -79,8 +79,8 @@
             <button class="button-white">Fermé, Ouvrira bientôt</button>
             <img src="sources/images/logoMAAD_b.png" alt="Logo MADD" href="index.html" id="logoMADD">
             <p>Au coeur de l'hôtel de Lalande, découvrez 2 siècles de création artistique à travers le design, l'artisanat d'art et les Arts Décoratifs.</p>
-            <button class="button-black">Programmation</button>
-            <button class="button-white">Les Collections</button>
+            <div id = "buttonindex"><button class="button-black">Programmation</button>
+            <button class="button-white">Les Collections</button></div>
             <img src="sources/images/image hero.png" id="imgMADDbatiment" alt="image hero">
         </section>
         <section class="bloc-gauche"><!--contenus-->
@@ -128,31 +128,37 @@
                     <p>Explorer les collections</p>
                 </div> 
                 <div class="img-droite">
-                    <img src="sources/images/collections.png" id ="imgright" alt="image collection">
+                    <img src="sources/images/collections.png" clas ="imgright" alt="image collection">
                 </div>
             </section>
             <section> <!--cartes-->
-                <div>
-                    <h4>Événements</h4>
-                    <p>Conférences, Rencontres & Visites</p>
-                    <img src="sources/images/evenement.png" id="imgleft" alt="image événements">
+                <div class="logo3">
+                    <div class="img-droite"><img src="sources/images/evenement.png" alt="image événements"></div>
+                    <div class="p-gauche">
+                        <h2>Événements</h2>
+                        <p>Conférences, Rencontres & Visites</p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Adresse</h4>
-                    <p>39 rue Bouffard, 33000 Bordeaux</p>
-                    <img src="sources/images/adresse.png" id="imgright" alt="image adresse">
+                <div class="logo3">
+                    <div class="img-droite"><img src="sources/images/adresse.png" alt="image adresse"></div>
+                    <div class="p-gauche">
+                        <h2>Adresse</h2>
+                        <p>39 rue Bouffard, 33000 Bordeaux</p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Horaires</h4>
-                    <p>Mer-Dim  14h-18h</p>
-                    <p>Lun-Mar  Fermé</p>
-                    <img src="sources/images/horaires.png" id="imgleft" alt="image horaires">
+                <div class="logo3">
+                    <div class="img-droite"><img src="sources/images/horaires.png" alt="image horaires"></div>
+                    <div class="p-gauche">
+                        <h2>Horaires</h2>
+                        <p>Mer-Dim  14h-18h</p>
+                        <p>Lun-Mar  Fermé</p>
+                    </div>
                 </div>
             </section>
         </section>
         <section> <!--bas de page-->
             <p>Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
-            <button class="button-yellow">S'INSCIRE A LA NEWSLETTER</button>
+            <button class="button-yellow">S'inscrire à la newsletter</button>
         </section>
     </main>
     <footer>
@@ -187,16 +193,16 @@
             <section class="col-social">
                 <h5><span class="yellow">|</span> RÉSEAUX</h5>
                 <div class="social-row">
-                    <img src="/sources/images/yt.png" alt="Youtube">
+                    <img src="sources/images/yt.png" alt="Youtube">
                     <a href="#">@museedesartsdecoratifsetdesign</a>
                 </div>
                 <div class="social-row">
-                    <img src="sources/images/logo ig.png" alt="Instagram">
+                    <img src="sources/images/ig.png" alt="Instagram">
                     <a href="#">@madd_bordeaux</a>
                 </div>
                 <div class="social-row">
-                    <img src="/sources/images/fb.png" alt="Facebook">
-                    <a href="#">Musée des Arts décoratifs...</a>
+                    <img class="fb-icon" src="sources/images/fb.png" alt="Facebook">
+                    <a href="#">  Musée des Arts décoratifs...</a>
                 </div>
             </section>
         </div>

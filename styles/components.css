@@ -1,7 +1,6 @@
 .button-yellow{
     background-color:rgba(244, 208, 63, 1);
     color: black;
-    font-family: Urbanist;
     border: none;
     padding: 10px 20px;
 }
@@ -13,7 +12,6 @@
 .button-black{
     background-color:black;
     color: white;
-    font-family: Urbanist;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -25,8 +23,6 @@
 .button-white{
     background-color:white;
     color: black;
-    font-family: Urbanist;
-    font-variant: small-caps;
     border-style: solid;
     border-width: 2px;
     border-color: black;

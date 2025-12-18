@@ -15,26 +15,77 @@
 }
 
 h1 {
-    color: #333333;
+    color: black;
     font-size: 96px;
-    font-family: Spectral;
+    font-weight: 500;
+    font-family: 'SpectralSC';
 }
 
 h2 {
+    color: black;
     font-size: 60px;
+    font-weight: 400;
+    font-family: 'SpectralSC';
 }
 
 h3 {
+    color: black;
     font-size: 48px;
+    font-weight: 400;
+    font-family: 'SpectralSC';
 }
 
-p{
+h4 {
     color: black;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'SpectralSC';
+}
+
+h5 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+    color: white;
+    font-weight: 400;
+    font-family: 'SpectralSC';
+}
+/*p {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Urbanist';
+}*/
+.p2{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Urbanist';
+}
+
+.p1{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Urbanist';
+}
+
+.extra{
     font-size: 16px;
+    font-weight: 400;
+    font-family: 'Urbanist';
+}
+
+.boutton{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Urbanist';
 }
 
 a{
-    font-family: Urbanist;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Urbanist';
 }
 footer p {
     font-size: 16px;
@@ -46,17 +97,4 @@ footer p {
 
 .h1-left {
     text-align: left;
-}
-
-h5 {
-    font-size: 1.25em;
-    margin-bottom: 0.5em;
-    color: white
-}
-
-main p {
-    font-size: 25px;
-    line-height: 1.5;
-    color: #000000;
-    font-family: Urbanist;
 }

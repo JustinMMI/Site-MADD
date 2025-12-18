@@ -1,6 +1,5 @@
 body {
     background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -22,7 +21,7 @@ main {
     background-color: #ffffff;
     margin-left : 10% ;
     margin-right : 10% ;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -50,40 +49,76 @@ main {
 
 /* End of responsive styles */
 #logoMADD {
+    display: block;
     float: left;
     max-width: 200px; /* Largeur */
     height: auto; /* Hauteur*/
 }
 
 #imgMADDbatiment {
+    display: block;
     float: right;
     height: 450px;
 }
 
-#imgleft {
+.imgmiddle {
+    display: block;
     float: left;
     height: auto;
 }
 
-#imgright {
+.imgleft {
+    display: block;
+    float: left;
+    height: auto;
+}
+
+.imgright {
+    display: block;
     float: right;
     height: auto;
 }
 
-
 .p-droite {
+    display: block;
     text-align: right;
 }
 
 .p-gauche {
+    display: block;
     text-align: left;
 }
 
 .bloc-droite {
+    display: block;
     float: right;
 }
 
 .bloc-gauche {
+    display: block;
     float: left;
+}
+
+.bloc-droite .p-gauche p{
+    max-width: 500px;
+}
+
+.logo3 {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo3 .img-droite,
+.logo3 .p-gauche {
+    float: none;
+}
+
+.logo3 img {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    display: block;
 }
 

@@ -52,13 +52,7 @@ footer p {
 }
 
 h5 {
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 20px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
 }
 
 h5 span {
@@ -78,27 +72,58 @@ h5 span {
 }
 
 .logo-principal {
-    width: 180px;
+    width: 300px;
     margin-bottom: 20px;
     display: block;
 }
 
 .logos-partenaires img {
-    height: 30px;
+    height: 50px;
     width: auto;
     margin-right: 15px;
     vertical-align: middle;
 }
 
+.horaire-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.horaire-row strong {
+    min-width: 90px;
+}
+
+.col-horaires p,
+.col-horaires span,
+.col-horaires strong {
+    font-weight: 700;
+}
+
 .social-row {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.social-row2 {
+    margin-right: 15px;
 }
 
 .social-row img {
     width: 20px;
     height: auto;
-    margin-right: 10px;
-    filter: invert(1);
+    margin-right: 12px;
+}
+
+.social-row img.fb-icon {
+    width: 15px;
+    margin-right: 17px;
+}
+
+.col-social {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
 }
