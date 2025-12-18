@@ -150,6 +150,10 @@ header nav ul li.yellow-h > ul {
 
 }
 
+header nav ul li.yellow-h {
+    border-left-color: #F4D03F;
+}
+
 .contact-mobile {
     display: none;
 }
