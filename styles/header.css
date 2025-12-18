@@ -127,6 +127,16 @@ header nav ul li ul li a {
     color: #333;
 }
 
+header nav ul li a:hover,
+header nav ul li label:hover,
+header nav ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li ul li a:hover {
+    background-color: transparent;
+}
+
 header nav ul li ul li:hover {
     background-color: #f0f0f0;
 }
