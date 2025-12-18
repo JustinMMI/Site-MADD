@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,21 +15,24 @@
     <link rel="stylesheet" href="styles/pages/index.css">
     <link rel="stylesheet" href="styles/components.css">
 </head>
+
 <body>
-        <section> <!--bandeau travaux-->
+    <div class="bandeau-container">
         <a class="bandeau" href="travaux.html">
-            <p class="extra">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir plus</p>
+            <p class="extra">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir
+                plus</p>
         </a>
-    </section>
+    </div>
+
     <header>
         <a href="/"><img src="sources/images/logoMAAD_b.png" alt="Logo MADD" id="logoMADD"></a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu">
-        <label for="nav-toggle" class="burger" aria-label="Menu">
+        <label for="nav-toggle" class="burger">
             <span></span>
             <span></span>
             <span></span>
         </label>
-        <nav> <!--menu de navigation-->
+        <nav>
             <ul>
                 <li class="red-h">
                     <input type="checkbox" id="sub-prog" class="submenu-toggle">
@@ -53,7 +57,7 @@
                 </li>
                 <li class="yellow-h">
                     <input type="checkbox" id="sub-musee" class="submenu-toggle">
-                    <label for="sub-musee" class="p2" >Le Musée ▼</label>
+                    <label for="sub-musee" class="p2">Le Musée ▼</label>
                     <ul>
                         <li><a href="#">Le musée aujourd'hui</a></li>
                         <li><a href="histoire.html">L'histoire du musée</a></li>
@@ -64,7 +68,7 @@
                 </li>
                 <li class="red-h">
                     <input type="checkbox" id="sub-infos" class="submenu-toggle">
-                    <label for="sub-infos" class="p2" >Infos Pratiques ▼</label>
+                    <label for="sub-infos" class="p2">Infos Pratiques ▼</label>
                     <ul>
                         <li><a href="#">Horaires</a></li>
                         <li><a href="#">Se rendre au musée</a></li>
@@ -95,10 +99,9 @@
                     </div>
                     <h1 class="hero-title">
                         <img src="sources/images/logoMAAD_b.png" alt="logo MAAD">
-                        <!--<span class="hero-brand">MADD</span><br>
-                        <span class="hero-city">BORDEAUX</span>-->
                     </h1>
-                    <p class="p1">Au coeur de l'hôtel de Lalande, découvrez 2 siècles de création artistique à travers le design, l'artisanat d'art et les Arts Décoratifs.</p>
+                    <p class="p1">Au coeur de l'hôtel de Lalande, découvrez 2 siècles de création artistique à travers
+                        le design, l'artisanat d'art et les Arts Décoratifs.</p>
                     <div class="hero-actions" id="buttonindex">
                         <button class="boutton button-black">Programmation</button>
                         <button class="boutton button-white">Les Collections</button>
@@ -106,78 +109,78 @@
                 </div>
                 <div class="hero-right">
                     <div class="hero-visual">
-                        <img src="sources/images/image_hero.png" alt="Façade du musée" />
-                    <!--
-                        <span class="shape shape-red"></span>
-                        <span class="shape shape-yellow"></span>
-                        <span class="shape shape-blue"></span>
-                    -->
+                        <img src="sources/images/image_hero.png" alt="Façade du musée">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contenu"><!--contenus-->
+        <section class="contenu">
             <div class="contenu-title">
                 <h2>ㅡ En ce moment</h2>
             </div>
 
-            <section class="block"> <!--Madd mobile -->
+            <section class="block">
                 <div class="imgleft">
                     <img src="sources/images/MADDmobile.png" id="imgleft" alt="image madd mobile">
                 </div>
                 <div class="p-droite">
                     <p class="extra"><span class="red">ㅡ</span> HORS LES MURS</p>
                     <h3>Le MADD Mobile</h3>
-                    <p class="p1">Le musée va à votre rencontre ! Découvrez nos interventions dans les écoles, nos conférences et nos ateliers !</p>
+                    <p class="p1">Le musée va à votre rencontre ! Découvrez nos interventions dans les écoles, nos
+                        conférences et nos ateliers !</p>
                     <a href="#" class="extra red"> Découvrir nos actions ➞</a>
                 </div>
             </section>
-            
-            <section class="block"><!--Madd chez vous -->
-                <div class="p-gauche"> 
+
+            <section class="block">
+                <div class="p-gauche">
                     <p class="extra"><span class="blue">ㅡ</span> CONTENUS DIGITAUX</p>
                     <h3>Le MADD chez vous</h3>
-                    <p class="p2">Explorez nos contenus vidéo et audio pour découvrir les collections, les coulisses du musée et l'univers des arts décoratifs depuis chez vous ! Podcasts, vidéos et ressources en ligne.</p>
+                    <p class="p2">Explorez nos contenus vidéo et audio pour découvrir les collections, les coulisses du
+                        musée et l'univers des arts décoratifs depuis chez vous ! Podcasts, vidéos et ressources en
+                        ligne.</p>
                     <a href="#" class="extra blue">Voir les contenus ➞</a>
                 </div>
                 <div class="imgright">
-                    <img src="sources/images/MADD&vous.png"  alt="image madd chez vous">
+                    <img src="sources/images/MADD&vous.png" alt="image madd chez vous">
                 </div>
             </section>
-            
-            <section class="block"> <!--Agenda -->
+
+            <section class="block">
                 <div class="imgleft">
-                    <img src="sources/images/evenements.png" alt="image agenda"> 
-                </div> 
-                <div class="p-droite"> 
+                    <img src="sources/images/evenements.png" alt="image agenda">
+                </div>
+                <div class="p-droite">
                     <p class="extra"><span class="red">ㅡ</span> EVENEMENTS CULTURELS</p>
                     <h3>Agenda</h3>
-                    <p class="p2">Conférences, ateliers, rencontres avec des créateurs... Découvrez notre programmation culturelle riche et variée tout au long de l'année.</p>
+                    <p class="p2">Conférences, ateliers, rencontres avec des créateurs... Découvrez notre programmation
+                        culturelle riche et variée tout au long de l'année.</p>
                     <a href="#" class="extra red">Consulter l'agenda ➞</a>
-                </div></div>
+                </div>
             </section>
-            
-            <section class="block"> <!--La collection -->
-                <div class="p-gauche"> 
+
+            <section class="block">
+                <div class="p-gauche">
                     <p class="extra"><span class="blue">ㅡ</span> PATRIMOINE PERMANENT</p>
                     <h3>La collection</h3>
-                    <p class="p2">Plus de 3500 œuvres d'arts décoratifs et de design, du XVIe siècle à nos jours. Mobilier, céramique, textile, verre... un patrimoine exceptionnel à découvrir.</p>
+                    <p class="p2">Plus de 3500 œuvres d'arts décoratifs et de design, du XVIe siècle à nos jours.
+                        Mobilier, céramique, textile, verre... un patrimoine exceptionnel à découvrir.</p>
                     <a href="#" class="extra blue">Explorer les collections ➞</a>
-                </div> 
+                </div>
                 <div class="imgright">
                     <img src="sources/images/collections.png" alt="image collection">
-                </div></div>
+                </div>
             </section>
-            
-            <section id="cartes"> <!--cartes-->
+
+            <section id="cartes">
                 <div class="logo3 red-b">
-                    <div class="p-gauche" >
+                    <div class="p-gauche">
                         <h4>Événements</h4>
-                        <p href="#" class="extra">Conférences, Rencontres & Visites</p>
+                        <a href="#" class="extra">Conférences, Rencontres & Visites</a>
                     </div>
                     <div class="img-right"><img src="sources/images/evenement.png" alt="image événements"></div>
                 </div>
-                <div class="logo3 blue-b" >
+                <div class="logo3 blue-b">
                     <div class="p-gauche">
                         <h4>Adresse</h4>
                         <p class="extra">39 rue Bouffard, 33000 Bordeaux</p>
@@ -187,33 +190,32 @@
                 <div class="logo3 yellow-b">
                     <div class="p-gauche">
                         <h4>Horaires</h4>
-                        <p class="extra">Mer-Dim  14h-18h</p>
-                        <p class="extra">Lun-Mar  Fermé</p>
+                        <p class="extra">Mer-Dim 14h-18h</p>
+                        <p class="extra">Lun-Mar Fermé</p>
                     </div>
                     <div class="img-right"><img src="sources/images/horaires.png" alt="image horaires"></div>
                 </div>
             </section>
         </section>
 
-        
-        <section class="newsletter"> <!--bas de page-->
+        <div class="newsletter">
             <div class="news-text">
-            <p class="p1">Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
+                <p class="p1">Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
             </div>
             <button class="boutton button-yellow">S'inscrire à la newsletter</button>
-        </section>
+        </div>
 
 
     </main>
     <footer>
         <div class="footer-main">
-            <section class="col-logos">
+            <div class="col-logos">
                 <img src="sources/images/logoMAAD_w.png" alt="logo MADD" class="logo-principal">
                 <div class="logos-partenaires">
-                    <img src="sources/images/image 25.png" alt="Bordeaux Culture">
-                    <img src="sources/images/image 26.png" alt="Haut-Bailly">
+                    <img src="sources/images/image%2025.png" alt="Bordeaux Culture">
+                    <img src="sources/images/image%2026.png" alt="Haut-Bailly">
                 </div>
-            </section>
+            </div>
             <section class="col-contact">
                 <h5><span class="red">|</span> CONTACT</h5>
                 <p>39 rue Bouffard</p>
@@ -246,7 +248,7 @@
                 </div>
                 <div class="social-row">
                     <img class="fb-icon" src="sources/images/fb.png" alt="Facebook">
-                    <a href="#">  Musée des Arts décoratifs...</a>
+                    <a href="#"> Musée des Arts décoratifs...</a>
                 </div>
             </section>
         </div>
@@ -260,4 +262,5 @@
         </div>
     </footer>
 </body>
+
 </html>
