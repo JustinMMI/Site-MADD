@@ -67,12 +67,11 @@ header button {
     max-width: 80%;
 }
 
-/* Navigation menu styles */
 header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: block; /* Override global system.css flex on nav ul */
+    display: block;
 }
 
 header nav ul li {
@@ -140,7 +139,6 @@ header nav ul li.red-h {
     border-left-color: #D72638;
 }
 
-/* TODO: Faire pareil pour les autres couleurs */
 header nav ul li.blue-h {
     border-left-color: #3E5C76;
 }
