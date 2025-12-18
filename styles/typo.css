@@ -17,13 +17,13 @@
 h1 {
     color: black;
     font-size: 96px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'SpectralSC';
 }
 
 h2 {
     color: black;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
     font-family: 'SpectralSC';
 }
@@ -74,7 +74,6 @@ h5 {
     font-weight: 400;
     font-family: 'Urbanist';
 }
-
 
 .boutton{
     font-size: 20px;

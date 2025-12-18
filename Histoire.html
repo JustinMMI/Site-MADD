@@ -20,15 +20,19 @@
 
     <section> <!--bandeau travaux-->
         <a class="bandeau" href="travaux.html">
-            <a class="extra" href="#">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir
-                plus</a>
+            <p class="extra">Musée fermé pour rénovation --- REOUVERTURE PREVUE EN 2026 --- Cliquez ici pour en savoir plus</p>
         </a>
     </section>
 
-
-
+    
     <header>
         <a href="/"><img src="sources/images/logoMAAD_b.png" alt="Logo MADD" id="logoMADD"></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu">
+        <label for="nav-toggle" class="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav> <!--menu de navigation-->
             <ul>
                 <li class="red-h">
@@ -51,7 +55,7 @@
                     </ul>
                 </li>
                 <li class="yellow-h">
-                    <a href="#" class="p2">Le Musée v</a>
+                    <a href="#" class="p2" >Le Musée v</a>
                     <ul>
                         <li><a href="#">Le musée aujourd'hui</a></li>
                         <li><a href="histoire.html">L'histoire du musée</a></li>
@@ -61,7 +65,7 @@
                     </ul>
                 </li>
                 <li class="red-h">
-                    <a href="#" class="p2">Infos Pratiques v</a>
+                    <a href="#" class="p2" >Infos Pratiques v</a>
                     <ul>
                         <li><a href="#">Horaires</a></li>
                         <li><a href="#">Se rendre au musée</a></li>
@@ -76,24 +80,19 @@
                         <li><a href="#">Anglais</a></li>
                     </ul>
                 </li>
+                <li class="contact-mobile button-yellow"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <button class="boutton button-yellow">Contact</button>
+        <button class="boutton button-yellow contact-desktop">Contact</button>
     </header>
-
-
-
-
 
 
     <main>
 
-        <div class="block-title">
-            <h1>Histoire du musée</h1>
-        </div>
+        <h1>Histoire du musée</h1>
 
         <section class="block"> <!--L'hôtel de Lalande-->
-                <div class="p2 text-left">
+                <div class="p2">
                     <h2>L'Hôtel de Lalande</h2>
                     <p>En 1775, Pierre de Raymond de Lalande (1727-1787), conseiller au parlement de Bordeaux, achète un grand emplacement près du palais Rohan, paroisse Saint-Christoly, pour lequel il demande l'autorisation de faire bâtir son hôtel particulier en 1778. </p>
                     <p>L'hôtel de Lalande fut édifié à la fin de l'Ancien régime pour une riche famille de parlementaires bordelais. Sobre et imposant, cet hôtel particulier construit entre cour et jardin compte parmi les plus belles demeures aristocratiques du XVIIIe siècle bordelais.</p>
@@ -109,24 +108,25 @@
 
 
         <section class="block"> <!--Une Prison Bordelaise-->
-            <div class="">
-                <h2>Une Prison Bordelaise</h2>
-                <div class="p-droite">
-                    <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880.</p>
-                    <p>En 1887, l'hôtel de Lalande devient Caserne municipale, l'aile des communs accueille écurie, magasin à foin, cour de passage et sellerie, tandis que les services de la sûreté et des mœurs -division municipale, commissaire central et petit parquet- s'installent dans le corps de logis principal.</p>
-                    <p>L'ancien jardin, clôturé de grands murs et planté de plus de soixante arbres sur trois rangs, de gazon, de plantes ou d'arbustes, disparaît au profit d'une vaste prison construite de solides murs en pierre formant un quadrilatère. Les services de police quitteront définitivement l'hôtel de Lalande en 1964.</p>
+                <div class="img-left">
+                    <img src="sources/images/histoire/chateauvieux.png" alt="L'hôtel de Lalande maintenant transformé en prison et police municipale">
                 </div>
-            </div>
-            <div class="img-left">
-            <img src="sources/images/histoire/chateauvieux.png" alt="L'hôtel de Lalande maintenant transformé en prison et police municipale"></div>
+                <div>
+                    <h2>Une Prison Bordelaise</h2>
+                    <div class="p2">
+                        <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880.</p>
+                        <p>En 1887, l'hôtel de Lalande devient Caserne municipale, l'aile des communs accueille écurie, magasin à foin, cour de passage et sellerie, tandis que les services de la sûreté et des mœurs -division municipale, commissaire central et petit parquet- s'installent dans le corps de logis principal.</p>
+                        <p>L'ancien jardin, clôturé de grands murs et planté de plus de soixante arbres sur trois rangs, de gazon, de plantes ou d'arbustes, disparaît au profit d'une vaste prison construite de solides murs en pierre formant un quadrilatère. Les services de police quitteront définitivement l'hôtel de Lalande en 1964.</p>
+                    </div>
+                </div>
         </section>
 
 
 
 
         <section class="block"> <!--Les Débuts du Musée-->
-            <div class="">
-                <h2 class = "p-gauche">Les Débuts du Musée</h2>
+            <h2 class = "p-gauche">Les Débuts du Musée</h2>
+            <div class="start">
                 <div class="p2">  
                     <p>A la mort de Duffour Dubergier en 1860, c'est le négociant Antoine Dalléas qui en devient propriétaire. Puis la Ville de Bordeaux acquiert l'hôtel de Lalande pour y placer les services de la police et des mœurs en 1880. </p>
                     <p>La guerre conduit le musée à fermer ses portes en 1940, et le 2 juillet 1955, le musée rouvre au public sous le nom de musée des Arts décoratifs.Le réaménagement complet des salons de l'hôtel de Lalande a été orchestré après la guerre par Xavier Védère, conservateur des archives municipales.Les collections du musée s'étendent désormais du Moyen-âge à la fin du XVIIIe siècle, et illustrent les arts appliqués du bois, du fer, de la terre, et du feu. La richesse et la variété des collections de faïences et de porcelaines place le musée des Arts décoratifs au premier rang des collections françaises de céramiques.</p>
@@ -138,7 +138,6 @@
 
         <section class="block"> <!--Le MADD actuellement-->
         <div class="">
-
             <h2>Le MADD actuellement</h2>
             <div class="p2">
                 <p>En 1984, le musée est réaménagé pour évoquer une riche demeure aristocratique, emblématique du siècle des Lumières bordelais. Ses collections constituent un exemple des arts décoratifs français, en particulier bordelais, des XVIIIème et XIXème siècles, et un témoignage de l'histoire de Bordeaux, grand port de négoce au XVIIIème siècle.En 2013, son nom évolue en « musée des Arts décoratifs et du Design ». Depuis, le madd-bordeaux développe une programmation conséquente faisant dialoguer arts décoratifs et design, notamment à travers la présentation renouvelée de sa collection de design au sein des espaces dédiés aux collections anciennes et l'organisation d'expositions temporaires.</p>
@@ -157,8 +156,10 @@
 
 
 
-        <section class="newsletterhistory"> <!--bas de page-->
+        <section class="newsletter"> <!--bas de page-->
+            <div class="news-text">
             <p class="p1">Envie d'en apprendre plus sur le musée et de te tenir au courant des actualités ?</p>
+            </div>
             <button class="boutton button-yellow">S'inscrire à la newsletter</button>
         </section>
 

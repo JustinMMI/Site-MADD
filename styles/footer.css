@@ -128,3 +128,16 @@ h5 span {
     flex-direction: column;
     margin-right: 15px;
 }
+
+.newsletter{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    align-self: center;
+    text-align: center;
+}
+
+.news-text{
+    padding-bottom: 20px;
+    text-align: center;
+}

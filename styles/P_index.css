@@ -3,7 +3,6 @@ body {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -276,18 +275,5 @@ main {
     align-items: center;
     gap: 25px;
     margin-top: 40px;
-    margin-top: 40px;
-}
-
-.newsletter{
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    align-self: center;
-    text-align: center;
-}
-
-.news-text{
-    padding-bottom: 20px;
-    text-align: center;
+    margin-bottom: 60px;
 }

@@ -11,11 +11,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 main {
     background-color: #ffffff;
@@ -25,31 +20,12 @@ main {
     margin-bottom: 60px;
 }
 
-.block {
-    display: block;
-    flex: auto;
-    align-items: center;
-    gap: 40px;
-    margin: 60px 0;
-}
-
-
-.bloc img {
-    max-width: 30%;
-    height: auto;
-}
-
-.bloc p {
-    max-width: 50%;
-}
-
-.bloc-title {
-    margin-bottom: 50px;
-}
 
 /* End of CSS file */
 /* Main styles for the webpage */
 /* Additional styles can be added below */
+
+
 
 .buttonindex {
     display: inline-block;
@@ -58,49 +34,31 @@ main {
     border-radius: 8px;
 }
 
-.logo3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+
+.bloc-title {
+    margin-bottom: 50px;
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-}
-
-.imgmiddle {
-    display: block;
-    float: left;
-    height: auto;
-}
-
-.imgleft {
+/*.img-left {
     display: block;
     float: left;
     height: auto;
     width : 80%;
     padding: 10px;
+    object-fit: contain;
 }
 
-.imgright {
+.img-right {
     display: block;
     float: right;
     height: auto;
     width : 80%;
     padding: 10px;
+    object-fit: contain;
+}*/
+
+.block .start .p2 p{
+    text-align: right;
 }
 
 .p-gauche,
@@ -118,16 +76,12 @@ main {
     text-align: left;
 }
 
-.block img {
-    width: 100%;
+/*.block img {
     height: auto;
-    display: block;
-}
-
-.block img {
-    max-height: 360px;
-    object-fit: cover;
-}
+    display: inline-block;
+    object-fit: none;
+    width: 200px;  taille souhaitée 
+}*/
 
 
 .block {
@@ -135,30 +89,23 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
+    object-fit: scale-down;
     margin: 100px 0;
 }
 
 
-.logo3 {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    align-items: center;
-    text-align: right;
-    gap: 16px;
-    border-left: 9px solid;
-    border-bottom: 3px solid;
-    padding: 15px;
-}
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
 
-.newsletterhistory{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    align-self: center;
-    text-align: center;
-}
+    h1 {
+        font-size: 24px;
+    }
 
-.newsletterhistory p{
-    padding-bottom: 20px;
-    align-self: center;
-    text-align: center;
+    p {
+        font-size: 14px;
+    }
 }
