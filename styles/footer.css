@@ -1,6 +1,6 @@
 footer {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: black;
+  color: white;
   font-family: "Urbanist", sans-serif;
   font-size: 14px;
   padding: 40px 50px 0 50px;
@@ -9,7 +9,7 @@ footer {
 }
 
 footer a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 

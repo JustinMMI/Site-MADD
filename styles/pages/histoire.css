@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: white;
 }
 
 main a {
@@ -12,7 +12,7 @@ main a:hover {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: white;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 100px;

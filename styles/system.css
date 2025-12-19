@@ -2,7 +2,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: white;
     overflow: visible;
     display: flex;
     justify-content: center;
@@ -14,20 +14,20 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 nav ul li ul {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: white;
     min-width: 160px;
     z-index: 1000;
     top: 100%;
@@ -48,7 +48,7 @@ nav ul li ul li a {
 }
 
 nav ul li ul li a:hover {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 html, body {

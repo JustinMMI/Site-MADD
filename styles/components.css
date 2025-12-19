@@ -1,5 +1,5 @@
 .button-yellow {
-  background-color: rgba(244, 208, 63, 1);
+  background-color: #f4d03f;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 .button-black:hover {
-  background-color: rgba(70, 70, 70);
+  background-color: #464646;
 }
 
 .button-white {
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 .button-white:hover {
-  background-color: rgba(220, 220, 220);
+  background-color: #dcdcdc;
 }
 .bandeau {
   display: block;
