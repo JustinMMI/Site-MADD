@@ -13,14 +13,23 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer p {
   margin: 5px 0;
   line-height: 1.4;
 }
 
-.col-contact a[href^="mailto"] {
+.col-contact a[href^="tel"] {
   display: block;
   margin-top: 15px;
+}
+
+.col-contact a[href^="mailto"] {
+  display: block;
+  margin-top: 5px;
 }
 
 .footer-main {
@@ -67,6 +76,18 @@ h5 {
   margin-bottom: 20px;
 }
 
+h5 a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+h5 a:hover {
+  text-decoration: underline;
+}
+
 h5 span {
   margin-right: 10px;
   font-weight: bold;
@@ -96,6 +117,46 @@ h5 span {
   vertical-align: middle;
 }
 
+.col-horaires {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-horaires-link {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+.col-horaires-link:hover {
+  opacity: 0.9;
+}
+
+.col-horaires-link h5 {
+  font-family: "SpectralSC" !important;
+  font-size: 16px !important;
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.col-horaires-link p,
+.col-horaires-link strong {
+  font-family: "Urbanist", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: white !important;
+}
+
+.col-horaires-link p {
+  margin-top: -2px;
+  margin-bottom: 0;
+}
+
+.col-horaires-link span.blue {
+  color: var(--bahaus2-blue) !important;
+}
+
 .horaire-row {
   display: flex;
   align-items: center;
@@ -111,6 +172,17 @@ h5 span {
 .col-horaires span,
 .col-horaires strong {
   font-weight: 700;
+}
+
+.col-horaires-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.col-horaires-link:hover {
+  opacity: 0.85;
+  text-decoration: none;
 }
 
 .social-row {
