@@ -1,17 +1,20 @@
 @font-face {
   font-family: "Urbanist";
   src: url("../sources/polices/Urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
+  font-display: swap
 }
 
 @font-face {
   font-family: "SpectralSC";
   src: url("../sources/polices/Spectral_SC/SpectralSC-Regular.ttf") format("truetype");
+  font-display: swap
 }
 
 @font-face {
   font-family: "SpectralSC";
   src: url("../sources/polices/Spectral_SC/SpectralSC-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap
 }
 
 h1 {
