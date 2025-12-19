@@ -1,5 +1,5 @@
 .button-yellow {
-  background-color: #f4d03f;
+  background-color: var(--bahaus3-yellow);
   color: black;
   border: none;
   padding: 10px 20px;
@@ -34,7 +34,7 @@
 .bandeau {
   display: block;
   text-decoration: none;
-  background-color: #d72638;
+  background-color: var(--bahaus1-red);
   color: white;
   text-align: center;
   padding: 10px 0;

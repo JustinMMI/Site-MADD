@@ -142,32 +142,32 @@ header nav ul li ul li:hover {
 }
 
 header nav ul li.red-h > ul {
-    border-left-color: #D72638;
+    border-left-color: var(--bahaus1-red);
 }
 
 header nav ul li.red-h {
-    border-left-color: #D72638;
+    border-left-color: var(--bahaus1-red);
 }
 
 header nav ul li.blue-h {
-    border-left-color: #3E5C76;
+    border-left-color: var(--bahaus2-blue);
 }
 
 header nav ul li.blue-h > ul {
-    border-left-color: #3E5C76;
+    border-left-color: var(--bahaus2-blue);
 }
 
 header nav ul li.yellow-h  {
-    border-left-color: #F4D03F;
+    border-left-color: var(--bahaus3-yellow);
 }
 
 header nav ul li.yellow-h > ul {
-    border-left-color: #F4D03F;
+    border-left-color: var(--bahaus3-yellow);
 
 }
 
 header nav ul li.yellow-h {
-    border-left-color: #F4D03F;
+    border-left-color: var(--bahaus3-yellow);
 }
 
 .contact-mobile {

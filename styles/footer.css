@@ -5,7 +5,7 @@ footer {
   font-size: 14px;
   padding: 40px 50px 0 50px;
   clear: both;
-  border-top: #d72638 6px solid;
+  border-top: var(--bahaus1-red) 6px solid;
 }
 
 footer a {
@@ -60,7 +60,7 @@ footer p {
 }
 
 .legal-links a:hover {
-  color: #d72638;
+  color: var(--bahaus1-red);
 }
 
 h5 {
@@ -74,13 +74,13 @@ h5 span {
 }
 
 .red {
-  color: #d72638;
+  color: var(--bahaus1-red);
 }
 .blue {
-  color: #3e5c76;
+  color: var(--bahaus2-blue);
 }
 .yellow {
-  color: #f4d03f;
+  color: var(--bahaus3-yellow);
 }
 
 .logo-principal {

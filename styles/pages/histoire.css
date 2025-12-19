@@ -3,7 +3,7 @@ body {
 }
 
 main a {
-  color: red;
+  color: var(--bahaus1-red);
   text-decoration: none;
 }
 
