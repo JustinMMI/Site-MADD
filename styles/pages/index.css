@@ -118,7 +118,7 @@ main {
   margin-top: 20px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .container {
     width: 100%;
     padding: 10px;
@@ -192,7 +192,7 @@ main {
   text-align: left;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .block {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -258,7 +258,7 @@ main {
   margin-bottom: 60px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   main {
     margin-left: 5%;
     margin-right: 5%;
@@ -387,7 +387,7 @@ main {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   main {
     margin-left: 3%;
     margin-right: 3%;

@@ -68,7 +68,7 @@ main {
 .blue-b { border-color: var(--bahaus2-blue); }
 .yellow-b { border-color: var(--bahaus3-yellow); }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   main {
     margin: 60px 5% 40px;
   }

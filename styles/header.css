@@ -175,7 +175,7 @@ header nav ul li.yellow-h {
 }
 
 /* Responsive */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
     .contact-mobile {
         max-width: 90%;
         display: block;

@@ -58,7 +58,7 @@ main {
   margin: 100px 0;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   main {
     margin-left: 5%;
     margin-right: 5%;
@@ -180,3 +180,15 @@ main {
 }
 
 
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .icon-lune {
+  display: none !important;
+}
+
+body.dark-mode .icon-soleil {
+  display: block !important;
+}

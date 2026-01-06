@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/pages/histoire.css">
     <link rel="stylesheet" href="styles/components.css">
+    <script src="js/interactions.js" defer></script>
 </head>
 
 <body>
@@ -95,6 +96,10 @@
                 <li class="contact-mobile button-yellow"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div id="btn-theme" style="cursor: pointer;">
+            <img src="sources/images/darkmode.PNG" class="icon-lune" onclick="Darkmode()" alt="Mode Sombre">
+            <img src="sources/images/lightmode.PNG" class="icon-soleil" onclick="Darkmode()" alt="Mode Clair" style="display: none;">
+        </div>
         <button class="boutton button-yellow contact-desktop">Contact</button>
     </header>
 
